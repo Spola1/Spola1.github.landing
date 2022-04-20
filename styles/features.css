@@ -1,0 +1,22 @@
+.features {
+  padding-top: 20px;
+  background: #f3f3f3;
+}
+
+.features-item {
+  padding: 15px;
+}
+
+.features-callback {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f3f3f3;
+}
+
+.feature-product {
+  margin-bottom: 30px;
+}
+
+.features-contact {
+  margin-top: 0;
+}

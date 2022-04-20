@@ -1,0 +1,25 @@
+.intro {
+  background-image: linear-gradient(rgba(255, 192, 203, 0), rgba(255, 192, 203, 0.3) 95%),
+                    url("img/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  color: #ffffff;
+  padding-bottom: 165px;
+  padding-top: 165px;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+}
+
+.intro-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro .text-lead {
+  color: #9b8961;;
+  max-width: 70%;
+  margin: 0 17%;
+}
