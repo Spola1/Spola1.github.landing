@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="styles/image.css">
   <link rel="stylesheet" href="styles/callback.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="styles/js/parallax.min.js"></script>
 </head>
 <body>
 <div class="header">
@@ -31,7 +34,7 @@
     </div>
   </div>
 </div>
-<div class="intro text-center">
+<div class="intro text-center parallax-window" data-parallax="scroll" data-image-src="styles/img/3.jpg">
   <p class="title-large">LIVEXP</p>
   <p class="text-large">Индивидуальная и групповая работа по усвоению учебных знаний<br>
     Подготовка к экзаменам и ЦТ<br> Нашим пользователям доступны
@@ -161,7 +164,7 @@
 </div>
 <div class="features-callback">
   <div class="callback-container shadow-up shadow-down">
-    <p class="title-medium text-center padding-both" id="callback">Для записи &ndash; свяжитесь с нами. Мы обязательно ответим!<p>
+    <p class="title-medium text-center padding-both" id="callback">Для записи &mdash; свяжитесь с нами. Мы обязательно ответим!<p>
     <form>
       <label for="fname">Имя:</label>
       <input type="text" placeholder="Ваше имя...">
